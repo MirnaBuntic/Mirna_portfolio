@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import './styles/main.scss';
 
 export default function App() {
   const [projects, setProjects] = useState([]);

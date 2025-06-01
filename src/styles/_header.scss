@@ -1,0 +1,12 @@
+header {
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        list-style: none;
+        
+        a {
+            color: white;
+        }
+    }
+}
