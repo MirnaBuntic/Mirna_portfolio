@@ -4,12 +4,17 @@ export default {
     type: 'document',
     fields: [
         {
+            name: 'order',
+            title: 'Sortering',
+            type: 'number',
+        },
+        {
             name: 'title',
             title: 'Tittel',
             type: 'string',
         },
         {
-            name: 'descriptcion',
+            name: 'description',
             title: 'Beskrivelse',
             type: 'text',
         },

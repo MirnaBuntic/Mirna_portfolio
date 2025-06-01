@@ -23,7 +23,7 @@ export default {
             type: 'string',
         },
         {
-            name: 'birtDate',
+            name: 'birthDate',
             title: 'Fødselsdato',
             type: 'date',
             options: {
