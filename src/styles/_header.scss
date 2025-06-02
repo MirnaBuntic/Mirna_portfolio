@@ -9,32 +9,33 @@ header {
         li {
             margin-bottom: 1.5rem;
             margin-top: 1rem;
+            margin-left: 0;
         }
 
         a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-size: x-large;
-            margin-left: 2rem;
         }
+        
+    }
+
+    button {
+        border-radius: 0;
+        border: none;
+        background-color: white;
     }
 
     .nav.open ul {
         display: flex;
+        align-items: center;
     }
 
     .hamburger {
         display: block;
-        background-color: black;
-        color: white;
-        border: none;
+        background-color: white;
+        color: black;
         font-size: 2rem;
-        padding: 0.5rem 1rem;
-        z-index: 1000;
-
-        &:hover {
-            background-color: #222;
-        }
     }
 }
 
