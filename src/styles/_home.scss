@@ -1,0 +1,26 @@
+.personal {
+    background-color: gray;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    
+    p {
+        font-size: x-large;
+    }
+
+    a {
+        background-color: black;
+        color: white;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.project-h2 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+

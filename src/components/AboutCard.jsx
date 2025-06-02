@@ -1,7 +1,7 @@
 export default function AboutCard({ about, compact = false }) {
 
     return (
-        <article>
+        <article className="about">
             {about.profileImage && (
                 <img src={about.profileImage} alt={about.name} />
             )}

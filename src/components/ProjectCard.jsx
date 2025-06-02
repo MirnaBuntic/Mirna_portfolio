@@ -1,6 +1,6 @@
 export default function ProjectCard({ project }) {
     return (
-        <article>
+        <article className="project">
             <h2>{project.title}</h2>
             {project.imageUrl && (
                 <img src={project.imageUrl} alt={project.title} />

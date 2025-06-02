@@ -10,14 +10,14 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
 
     return (
         <>
-            <section>
+            <section className="personal">
                 <h1>Mirna Buntic</h1>
                 <p>Frontend-utvikler under opplæring</p>
                 <Link to="/contact">Kontakt meg</Link>
             </section>
 
             <section>
-                <h2>Noen av mine prosjekter</h2>
+                <h2 className="project-h2">Noen av mine prosjekter</h2>
                 {featured.map(project => (
                     <ProjectCard key={project._id} project={project} />
                 ))}
