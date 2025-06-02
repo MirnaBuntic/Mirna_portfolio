@@ -9,6 +9,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 import './styles/main.scss';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function App() {
   const [projects, setProjects] = useState([]);
