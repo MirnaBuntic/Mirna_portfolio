@@ -23,8 +23,7 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
                 ))}
 
                 <article>
-                    <h2>Se flere prosjekter her</h2>
-                    <Link to="/projects">Gå til prosjektsiden</Link>
+                    <Link to="/projects" className="more-projects">Se flere prosjekter her<i className="fas fa-arrow-right"></i></Link>
                 </article>
             </section>
         </>
