@@ -29,7 +29,6 @@ export const ABOUT_QUERY = `
     title,
     "profileImage": profileImage.asset->url,
     name,
-    birthDate,
     role,
     description,
     skills

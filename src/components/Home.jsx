@@ -10,27 +10,22 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
 
     return (
         <>
-            <section className="personal">
-                <h1>Mirna Buntic</h1>
-                <p>Frontend-utvikler under opplæring</p>
-                <Link to="/contact">Kontakt meg</Link>
+            <section>
+                <AboutCard about={about} compact />
+                <Link className="contact-button" to="/contact">Kontakt Meg</Link>
             </section>
 
-            <section>
-                <h2 className="project-h2">Noen av mine prosjekter</h2>
+            <section className="project-home">
+                <p className="check">Sjekk Ut Mine Siste</p>
+                <h2 className="project-h2">Prosjekter</h2>
                 {featured.map(project => (
                     <ProjectCard key={project._id} project={project} />
                 ))}
-            </section>
 
-            <section>
-                <h2>Se flere prosjekter her</h2>
-                <Link to="/projects">Gå til prosjektsiden</Link>
-            </section>
-
-            <section>
-                <AboutCard about={about} compact />
-                <Link to="/about">Les mer om meg her</Link>
+                <article>
+                    <h2>Se flere prosjekter her</h2>
+                    <Link to="/projects">Gå til prosjektsiden</Link>
+                </article>
             </section>
         </>
     )

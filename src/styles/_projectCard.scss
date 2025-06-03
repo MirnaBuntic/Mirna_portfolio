@@ -1,6 +1,15 @@
 .project-card {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    background-color: white;
+
     img {
-        max-width: 80%;
+        max-width: 70%;
         display: block;
         margin: 0 auto;
         height: auto;
@@ -10,13 +19,39 @@
 
     h2 {
         color: black;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
     }
 
-    p {
+    p, li {
         color: black;
     }
 
-    li {
-        color: black;
+    .desktop-only {
+        display: none;
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-top: 2rem;
+
+        .github-button {
+            background-color: rgb(84, 84, 84);
+            color: white;
+            padding: 8px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .project-card {
+        .desktop-only {
+            display: block;
+        }
     }
 }

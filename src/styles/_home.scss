@@ -1,26 +1,38 @@
-.personal {
-    color: black;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+.contact-button {
+    background-color: rgb(84, 84, 84);
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
 
-    p {
-        font-size: x-large;
-    }
-
-    a {
-        background-color: black;
-        color: white;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
+.check {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
 }
 
 .project-h2 {
-    font-size: xx-large;
+    font-size: 4rem;
+    color: white;
     display: flex;
     justify-content: center;
-    color: black;
+    margin-bottom: 5rem;
+    margin-top: 0;
 }
 
+.project-home {
+    background-image: url(/src/img/image.png);
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}

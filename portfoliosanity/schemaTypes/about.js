@@ -23,14 +23,6 @@ export default {
             type: 'string',
         },
         {
-            name: 'birthDate',
-            title: 'Fødselsdato',
-            type: 'date',
-            options: {
-                dateFormat: 'YYYY-MM-DD',
-            },
-        },
-        {
             name: 'role',
             title: 'Yrkesrolle',
             type: 'string',

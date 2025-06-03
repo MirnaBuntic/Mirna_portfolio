@@ -6,11 +6,11 @@ export default function AboutCard({ about, compact = false }) {
                 <img src={about.profileImage} alt={about.name} />
             )}
 
-            <p>{about.name}</p>
+            <p>Hei, mitt navn er</p>
 
-            {about.birthDate && <p>Fødselsdato: {about.birthDate}</p>}
+            <h1>{about.name}</h1>
 
-            {about.role && <p>Yrkesrolle: {about.role}</p>}
+            {about.role && <p className="role">{about.role}</p>}
 
             {!compact && (
                 <>
