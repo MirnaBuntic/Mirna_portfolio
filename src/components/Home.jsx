@@ -12,7 +12,7 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
         <>
             <section>
                 <AboutCard about={about} compact />
-                <Link className="contact-button" to="/contact">Kontakt Meg</Link>
+                <a href="#contact" className="contact-button">Kontakt Meg</a>
             </section>
 
             <section className="project-home">
@@ -23,7 +23,7 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
                 ))}
 
                 <article>
-                    <Link to="/projects" className="more-projects">Se flere prosjekter her<i className="fas fa-arrow-right"></i></Link>
+                    <Link to="/projects" className="more-projects">Se flere prosjekter her</Link>
                 </article>
             </section>
         </>

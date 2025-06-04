@@ -14,7 +14,7 @@ export default function Header() {
                     <li><Link to="/">Hjem</Link></li>
                     <li><Link to="/projects">Projekter</Link></li>
                     <li><Link to="/about">Om meg</Link></li>
-                    <li><Link to="/contact">Kontakt</Link></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
         </header>

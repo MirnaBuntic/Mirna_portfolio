@@ -6,7 +6,6 @@ import Layout from "./components/Layout";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 import './styles/main.scss';
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -41,7 +40,6 @@ export default function App() {
         <Route path="/" element={<Home projects={projects} about={about} loadingProjects={loadingProjects} loadingAbout={loadingAbout} />} />
         <Route path="/projects" element={<Projects projects={projects} loadingProjects={loadingProjects} />} />
         <Route path="/about" element={<About about={about} loadingAbout={loadingAbout} />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Layout>
   );

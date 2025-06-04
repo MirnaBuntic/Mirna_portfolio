@@ -1,11 +1,3 @@
-export const CONTACT_QUERY = `*[_type == "contact"][0]{
-    name,
-    "profileImageUrl": profileImage.asset->url,
-    email,
-    phone,
-    linkedin
-}`
-
 export const PROJECTS_QUERY = `*[_type == "project"] | order(order asc){
     _id,
     title,
