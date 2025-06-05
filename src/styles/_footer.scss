@@ -1,32 +1,32 @@
 footer {
-    color: black;
-    margin-top: 5rem;
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(224, 222, 222);
+    align-items: start;
+    background-color: #222;
 
     h3{
-            font-size: 3rem;
+            font-size: 1.5rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            align-self: center;
         }
 
     ul {
         list-style: none;
 
         li {
-            margin-bottom: 3rem;
-            margin-right: 2rem;
-            border-bottom: 3px solid #bcbbbb;
+            margin-bottom: 2rem;
         }
 
         a {
-            color: black;
-            font-size: 1.5rem;
+            color: white;
+            font-size: 1rem;
         }
     }
 
     i {
         margin-right: 1rem;
-        font-size: xx-large;
+        font-size: x-large;
     }
 }

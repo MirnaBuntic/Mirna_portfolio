@@ -29,7 +29,7 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
                 ))}
 
                 <article>
-                    <Link to="/projects" className="more-projects">Se flere prosjekter her</Link>
+                    <Link to="/projects" className="more-projects">Se Flere Prosjekter Her</Link>
                 </article>
             </section>
         </>

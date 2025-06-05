@@ -1,0 +1,46 @@
+.about {
+    h2, .description{
+        color: black;
+        align-self: flex-start;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    h2 {
+        margin-top: 5rem;
+    }
+    
+    .description {
+        margin-top: 1rem;
+        font-size: large;
+    }
+
+    .skills {
+        color: black;
+        align-self: flex-start;
+        margin-left: 2rem;
+
+        h3 {
+            font-size: x-large;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-bottom: 2rem;
+
+            li {
+                font-size: large;
+                margin-bottom: 1rem;
+                margin-right: 2rem;
+                border: 2px solid black;
+                padding: 0.5rem;
+                border-radius: 5%;
+            }
+        }
+    }
+
+}

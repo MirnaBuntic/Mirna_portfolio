@@ -14,16 +14,18 @@ export default function AboutCard({ about, compact = false }) {
 
             {!compact && (
                 <>
-                    {about.description && <p>{about.description}</p>}
+                    <h2>Om Meg</h2>
+
+                    {about.description && <p className="description">{about.description}</p>}
 
                     {about.skills && about.skills.length > 0 && (
-                        <div>
-                        <h3>Ferdigheter</h3>
-                        <ul>
-                            {about.skills.map((skill, index) => (
-                                <li key={index}>{skill}</li>
-                            ))}
-                        </ul>
+                        <div className="skills">
+                            <h3>Ferdigheter</h3>
+                            <ul>
+                                {about.skills.map((skill, index) => (
+                                    <li key={index}>{skill}</li>
+                                ))}
+                            </ul>
                         </div>
                     )}
                 </>

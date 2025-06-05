@@ -5,8 +5,8 @@ export default function Projects({ projects, loadingProjects }) {
     if (loadingProjects) return <p>Laster prosjekt...</p>
 
     return (
-        <section>
-            <h1>Mine prosjekter</h1>
+        <section className="my-projectpage">
+            <h1>Mine Prosjekter</h1>
             {projects.map(project => (
                 <ProjectCard key={project._id} project={project} />
             ))}

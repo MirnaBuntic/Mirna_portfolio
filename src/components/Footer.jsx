@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer>
-            <h3>Kontakt meg</h3>
+            <h3>Kontakt Meg</h3>
             <ul>
                 <li>
                     <a href="mailto:mirnacb@hiof.no"><i className="fas fa-envelope"></i>mirnacb@hiof.no</a>
