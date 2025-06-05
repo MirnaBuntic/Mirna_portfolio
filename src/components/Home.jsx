@@ -1,5 +1,6 @@
 import ProjectCard from "./projectCard";
 import AboutCard from "./AboutCard";
+import ScrollToBottom from "./ScrollToBottom";
 import { Link } from "react-router-dom";
 
 export default function Home({ projects, loadingProjects, about, loadingAbout }) {
@@ -12,7 +13,12 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
         <>
             <section>
                 <AboutCard about={about} compact />
-                <a href="#contact" className="contact-button">Kontakt Meg</a>
+                <button
+                    className="contact-button"
+                    onClick={ScrollToBottom}
+                    >
+                    Kontakt Meg
+                </button>
             </section>
 
             <section className="project-home">

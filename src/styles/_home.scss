@@ -1,33 +1,14 @@
 .contact-button {
+    display: block;
+    width: fit-content;
+    padding: 6px 12px;
     background-color: rgb(84, 84, 84);
     color: white;
-    padding: 6px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-}
-
-.check {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-}
-
-.project-h2 {
-    font-size: 4rem;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
-    margin-top: 0;
+    margin: 2rem auto 0 auto;
 }
 
 .project-home {
@@ -35,20 +16,36 @@
     padding-top: 2rem;
     padding-bottom: 5rem;
     margin-top: 3rem;
-}
 
-.more-projects {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: xx-large;
-    margin-top: 3rem;
-    background-color: rgba(0, 0, 0, 0.6);
-    align-items: center;
-    gap: 4%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-radius: 1rem;
-    padding: 0.7rem;
-    margin-top: 5rem;
+    .check {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    .project-h2 {
+        font-size: 4rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+        margin-top: 0;
+    }
+
+    .more-projects {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: xx-large;
+        background-color: rgba(0, 0, 0, 0.6);
+        align-items: center;
+        gap: 4%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem;
+        padding: 0.7rem;
+        margin-top: 5rem;
+    }
 }

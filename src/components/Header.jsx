@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import ScrollToBottom from "./ScrollToBottom";
 
 export default function Header() {
     const [open, setOpen] = useState(false);
@@ -14,7 +15,16 @@ export default function Header() {
                     <li><Link to="/">Hjem</Link></li>
                     <li><Link to="/projects">Projekter</Link></li>
                     <li><Link to="/about">Om meg</Link></li>
-                    <li><a href="#contact">Kontakt</a></li>
+                    <li>
+                        <button
+                            onClick={() => {
+                                ScrollToBottom();
+                                setOpen(false);
+                            }}
+                            >
+                            Kontakt
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </header>
