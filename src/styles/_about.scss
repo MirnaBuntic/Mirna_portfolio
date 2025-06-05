@@ -1,13 +1,19 @@
 .about {
+    .me {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/src/img/image2.png);
+        padding-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
     h2, .description{
-        color: black;
+        color: white;
         align-self: flex-start;
         margin-left: 2rem;
         margin-right: 2rem;
     }
 
     h2 {
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
     
     .description {
@@ -31,6 +37,7 @@
             flex-wrap: wrap;
             list-style: none;
             margin-bottom: 2rem;
+            padding: 0;
 
             li {
                 font-size: large;

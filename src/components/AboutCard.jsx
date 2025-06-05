@@ -14,9 +14,11 @@ export default function AboutCard({ about, compact = false }) {
 
             {!compact && (
                 <>
-                    <h2>Om Meg</h2>
+                    <div className="me">
+                        <h2>Om Meg</h2>
 
-                    {about.description && <p className="description">{about.description}</p>}
+                        {about.description && <p className="description">{about.description}</p>}
+                    </div>
 
                     {about.skills && about.skills.length > 0 && (
                         <div className="skills">
