@@ -17,16 +17,40 @@ footer {
 
         li {
             margin-bottom: 2rem;
-        }
 
-        a {
-            color: white;
-            font-size: 1rem;
+            i {
+                margin-right: 1rem;
+                font-size: x-large;
+            }
+
+            a {
+                color: white;
+                font-size: 1rem;
+            }
         }
     }
+}
 
-    i {
-        margin-right: 1rem;
-        font-size: x-large;
+@media (min-width: 768px) {
+    footer {
+        ul {
+            display: flex;
+            justify-content: center;
+            align-self: stretch;
+            padding: 0;
+            gap: 30%;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        ul {
+            li {
+                a {
+                    font-size: 1.5rem;
+                }
+            }
+        }
     }
 }
