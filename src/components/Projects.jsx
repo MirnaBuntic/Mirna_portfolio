@@ -7,9 +7,13 @@ export default function Projects({ projects, loadingProjects }) {
     return (
         <section className="my-projectpage">
             <h1>Mine Prosjekter</h1>
-            {projects.map(project => (
-                <ProjectCard key={project._id} project={project} />
-            ))}
+
+            <div className="project-container">
+                {projects.map(project => (
+                    <ProjectCard key={project._id} project={project} />
+                ))}
+            </div>
+
         </section>
     )
 }

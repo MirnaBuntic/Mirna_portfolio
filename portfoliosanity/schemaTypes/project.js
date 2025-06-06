@@ -14,22 +14,6 @@ export default {
             type: 'string',
         },
         {
-            name: 'description',
-            title: 'Beskrivelse',
-            type: 'text',
-        },
-        {
-            name: 'technologies',
-            title: 'Teknologier brukt',
-            type: 'array',
-            of: [{ type: 'string' }],
-        },
-        {
-            name: 'reflection',
-            title: 'Refleksjon',
-            type: 'text',
-        },
-        {
             name: 'image',
             title: 'Bilde',
             type: 'image',

@@ -6,7 +6,6 @@ export default function About({ about, loadingAbout }) {
 
     return (
         <section>
-            <h1>Om meg</h1>
             <AboutCard about={about} />
         </section>
     );

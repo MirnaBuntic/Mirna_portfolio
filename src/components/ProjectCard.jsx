@@ -7,23 +7,6 @@ export default function ProjectCard({ project }) {
                 <img src={project.imageUrl} alt={project.title} />
             )}
 
-            <p className="desktop-only">{project.description}</p>
-                    
-            <div className="desktop-only">
-                <p>Teknologier:</p>
-                {project.technologies && project.technologies.length > 0 ? (
-                    <ul>
-                        {project.technologies.map((tech, index) => (
-                            <li key={index}>{tech}</li>
-                        ))}
-                    </ul>
-                ) : (
-                    <p>Ingen teknologier gitt</p>
-                )}
-            </div>
-
-            <p className="desktop-only">Refleksjon: {project.reflection}</p>
-
             <div className="button-group">
                 {project.liveDemo && (
                     <p>

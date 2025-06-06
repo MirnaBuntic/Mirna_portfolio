@@ -24,9 +24,12 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
             <section className="project-home">
                 <p className="check">Sjekk Ut Mine Siste</p>
                 <h2 className="project-h2">Prosjekter</h2>
-                {featured.map(project => (
-                    <ProjectCard key={project._id} project={project} />
-                ))}
+                
+                <div className="project-container">
+                    {featured.map(project => (
+                        <ProjectCard key={project._id} project={project} />
+                    ))}
+                </div>
 
                 <article>
                     <Link to="/projects" className="more-projects">Se Flere Prosjekter Her</Link>

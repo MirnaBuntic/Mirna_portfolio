@@ -4,12 +4,6 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'title',
-            title: 'Tittel',
-            type: 'string',
-            initialValue: 'Om meg',
-        },
-        {
             name: 'profileImage',
             title: 'Profilbilde',
             type: 'image',

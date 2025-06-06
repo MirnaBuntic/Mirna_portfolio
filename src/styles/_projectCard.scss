@@ -1,4 +1,5 @@
-.project-card {
+.project-container {
+    .project-card {
     margin-top: 3rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -8,50 +9,66 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     background-color: white;
 
-    img {
-        max-width: 70%;
-        display: block;
-        margin: 0 auto;
-        height: auto;
-        border-radius: 15px;
-        object-fit: cover;
-    }
+        img {
+            max-width: 70%;
+            display: block;
+            margin: 0 auto;
+            height: auto;
+            border-radius: 15px;
+            object-fit: cover;
+            border: 1px solid lightgray;
+        }
 
-    h2 {
-        color: black;
-        margin-bottom: 3rem;
-        display: flex;
-        justify-content: center;
-    }
+        h2 {
+            color: black;
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: center;
+        }
 
-    p, li {
-        color: black;
-    }
+        p, li {
+            color: black;
+        }
 
-    .desktop-only {
-        display: none;
-    }
+        .desktop-only {
+            display: none;
+        }
 
-    .button-group {
-        display: flex;
-        justify-content: center;
-        gap: 10%;
-        margin-top: 2rem;
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+            margin-top: 2rem;
 
-        .github-button {
-            background-color: rgb(84, 84, 84);
-            color: white;
-            padding: 8px;
-            border-radius: 10px;
-            text-decoration: none;
+            .github-button {
+                background-color: rgb(84, 84, 84);
+                color: white;
+                padding: 8px;
+                border-radius: 10px;
+                text-decoration: none;
+            }
         }
     }
 }
 
+
+
 @media (min-width: 768px) {
-    .project-card {
-        .desktop-only {
-            display: block;
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .project-card {
+            flex: 1 1 400px;
+
+            h2 {
+                font-size: xx-large;
+            }
+
+            .desktop-only {
+                display: block;
+            }
         }
     }
 }
