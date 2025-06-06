@@ -30,11 +30,9 @@ export default function Home({ projects, loadingProjects, about, loadingAbout })
                         <ProjectCard key={project._id} project={project} />
                     ))}
                 </div>
-
-                <article>
-                    <Link to="/projects" className="more-projects">Se Flere Prosjekter Her</Link>
-                </article>
             </section>
+            
+            <Link to="/projects" className="more-projects">Se Flere Prosjekter Her</Link>
         </>
     )
 }

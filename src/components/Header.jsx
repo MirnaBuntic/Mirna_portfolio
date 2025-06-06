@@ -6,7 +6,7 @@ export default function Header() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header>
+        <header className="header">
             <button className="hamburger" onClick={() => setOpen(!open)}>
                 <i className={`fas ${open ? "fa-times" : "fa-bars"}`}></i>
             </button>

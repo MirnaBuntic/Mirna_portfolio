@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <h3>Kontakt Meg</h3>
             <ul>
                 <li>
