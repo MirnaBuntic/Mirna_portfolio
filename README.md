@@ -1,12 +1,25 @@
-# React + Vite
+# Portfolio-prosjekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dette er min personlige portefølje der jeg forteller om meg selv og viser til mine egne erfaringer.
 
-Currently, two official plugins are available:
+## Struktur av projektet:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Her har jeg satt opp ulike komponenter for å strukturere scripten, deretter router jeg alle paths i app.jsx og sender props mellom komponentene for å gjenbruke dem sån at det blir mindre kode og mer strukturert.
 
-## Expanding the ESLint configuration
+## Teknologier:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML
+- SCSS
+- JavaScript
+- React
+- React router
+- Node
+- Vite
+- API
+- Santiy
+
+## Refleksjon:
+
+Jeg har brukt Sanity for å strukturere innhold som brukes flere steder, for å unngå gjentakende kode og holde koden mer oversiktlig og ryddig.
+
+
