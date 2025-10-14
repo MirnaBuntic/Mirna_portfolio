@@ -13,7 +13,7 @@ export default function Header() {
             <nav className={`nav ${open ? "open" : ""}`}>
                 <ul>
                     <li><Link to="/">Hjem</Link></li>
-                    <li><Link to="/projects">Projekter</Link></li>
+                    <li><Link to="/projects">Prosjekter</Link></li>
                     <li><Link to="/about">Om meg</Link></li>
                     <li>
                         <button

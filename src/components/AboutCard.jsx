@@ -17,7 +17,14 @@ export default function AboutCard({ about, compact = false }) {
                     <div className="me">
                         <h2>Om Meg</h2>
 
-                        {about.description && <p className="description">{about.description}</p>}
+                        {about.description && (
+                            <div>
+                                {about.description.split('\n\n').map((paragraph, index) => (
+                                    <p className="description" key={index}>{paragraph}</p>
+                                ))}
+                            </div>
+                        )}
+
                     </div>
 
                     {about.skills && about.skills.length > 0 && (
