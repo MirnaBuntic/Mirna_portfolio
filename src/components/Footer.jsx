@@ -7,7 +7,7 @@ export default function Footer() {
                     <a href="mailto:mirnacb@hiof.no"><i className="fas fa-envelope"></i>mirnacb@hiof.no</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/mirna-buntic-b97b/"><i className="fab fa-linkedin"></i>Mirna Buntic</a>
+                    <a href="https://www.linkedin.com/in/mirna-buntic-b97bba368/"><i className="fab fa-linkedin"></i>Mirna Buntic</a>
                 </li>
             </ul>
         </footer>
