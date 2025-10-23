@@ -27,6 +27,13 @@ footer {
                 color: white;
                 font-size: 1rem;
             }
+
+            a:hover {
+                color: black;
+                background-color: white;
+                padding: .5rem;
+                border-radius: 10px;
+            }
         }
     }
 }
