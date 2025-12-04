@@ -14,6 +14,7 @@ export default function Header() {
                 <ul>
                     <li><Link to="/">Hjem</Link></li>
                     <li><Link to="/projects">Prosjekter</Link></li>
+                    <li><Link to="/figma-projects">Figma</Link></li>
                     <li><Link to="/about">Om meg</Link></li>
                     <li>
                         <button

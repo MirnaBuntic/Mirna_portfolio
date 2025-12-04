@@ -21,3 +21,14 @@ export const ABOUT_QUERY = `
     skills
     }
 `
+
+export const FIGMA_QUERY = `*[_type == "figma"] | order(order asc){
+  _id,
+  title,
+  link,
+  image{
+    asset->{
+      url
+    }
+  }
+}`;
